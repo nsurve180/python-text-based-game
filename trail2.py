@@ -7,7 +7,7 @@ player_inventory = []  # To store items the player collects
 def introduction():
     print("Welcome, Chosen One, to the Treasure Hunt!")
     time.sleep(1)
-    player_name = input("What is your name, Chosen One? ")
+    player_name = input("What is your name?")
     print(f"Welcome, {player_name}, to the Treasure Hunt!")
     time.sleep(1)
     print(f"{player_name}, you find yourself on a remote island with a mysterious treasure map in hand.")
